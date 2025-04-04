@@ -1,6 +1,6 @@
 # Spec: Specification Repository v0.0.0
 
-This repository contains the specification norming the structure, contents and versioning of Uqido Specification Repositories (yeah, a recursively defined spec 🙂!).
+This repository contains the specification norming the structure, contents and versioning of Uqido Specification Repositories (yeah, a recursively defined spec :)!).
 
 ## Adoption Impact
 
