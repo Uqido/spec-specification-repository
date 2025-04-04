@@ -26,11 +26,13 @@ recipes, etc...—following the conventions specified in this section.
 Specification rules used in this document are borrowed from a well-regarded, best practice coding guideline from our good ol' buddy Bjarne Stroustrup
 (https://www.stroustrup.com/JSF-AV-rules.pdf FYI, always worth a reading BTW :)):
 
-There are three types of rules: should, will, and shall rules. Each rule contains either a “should”, “will” or a “shall” in bold letters indicating its type.
-• Should rules are advisory rules. They strongly suggest the recommended way of doing things.
-• Will rules are intended to be mandatory requirements. It is expected that they will be followed, but they do not require verification. They are limited to
+There are three types of rules: *should*, *will*, and *shall* rules.
+
+Each rule contains either a “should”, “will” or a “shall” in bold letters indicating its type.
+- Should rules are advisory rules. They strongly suggest the recommended way of doing things.
+- Will rules are intended to be mandatory requirements. It is expected that they will be followed, but they do not require verification. They are limited to
 non-safety-critical requirements that cannot be easily verified (e.g., naming conventions).
-• Shall rules are mandatory requirements. They must be followed and they require verification (either automatic or manual).
+- Shall rules are mandatory requirements. They must be followed and they require verification (either automatic or manual).
 
 ### Naming Conventions
 
