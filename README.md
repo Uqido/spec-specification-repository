@@ -26,7 +26,7 @@ recipes, etc...—following the conventions specified in this section.
 Specification rules used in this document are borrowed from a well-regarded, best practice coding guideline from our good ol' buddy Bjarne Stroustrup
 (https://www.stroustrup.com/JSF-AV-rules.pdf FYI, always worth a reading BTW :)):
 
-There are three types of rules: *should*, *will*, and *shall* rules.
+There are three types of rules: **should**, **will**, and **shall** rules.
 
 Each rule contains either a “should”, “will” or a “shall” in bold letters indicating its type.
 - Should rules are advisory rules. They strongly suggest the recommended way of doing things.
@@ -36,23 +36,23 @@ non-safety-critical requirements that cannot be easily verified (e.g., naming co
 
 ### Naming Conventions
 
-The repo name *will* have the form "spec-some-recognizable-sensible-name".
-Documentation material *shall* be written in `md` format with snake_case naming convention.
+The repo name **will** have the form "spec-some-recognizable-sensible-name".
+Documentation material **shall** be written in `md` format with snake_case naming convention.
 Non-mandatory, technology specific material may have different naming conventions.
 
 ### Versioning and Distribution
 
-Specs *shall* follow semver 2.0 versioning; each version *shall* have a tag of the form v`semver`, any semver format is allowed (see https://semver.org/).
-Specs are distributed via *links* to their tags, hence the version reported in this README and throughout the spec documentation *will* be consistent with the tag it lives in.
+Specs **shall** follow semver 2.0 versioning; each version **shall** have a tag of the form v`semver`, any semver format is allowed (see https://semver.org/).
+Specs are distributed via *links* to their tags, hence the version reported in this README and throughout the spec documentation **will** be consistent with the tag it lives in.
 
 ### Spec Repository Structure
 
-A spec *shall* contain at least:
+A spec **shall** contain at least:
 - a README.md
 - a Apache License Version 2.0 LICENSE file
 
 It may also contain directories with support material used to ease spec adoption, including scripts, recipes, examples etc... .
 In any case, such support material is *not* intended as a mean for hosting libraries or other reusable code components; these
-should live in dedicated repos: spec repositories *should* be dependency free and lightweight to link and clone.
+should live in dedicated repos: spec repositories **should** be dependency free and lightweight to link and clone.
 
-The README.md *shall* follow the structure in the spec_template.md file.
+The README.md **shall** follow the structure in the spec_template.md file.
