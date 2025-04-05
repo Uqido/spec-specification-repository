@@ -45,6 +45,9 @@ Non-mandatory, technology specific material may have different naming convention
 Specs **shall** follow semver 2.0 versioning; each version **shall** have a tag of the form v`semver`, any semver format is allowed (see https://semver.org/).
 Specs are distributed via *links* to their tags, hence the version reported in this README and throughout the spec documentation **will** be consistent with the tag it lives in.
 
+Repositories adopting a spec **should** declare its adoption in its README.md file, by specifying a url pointing to the tagged tree directly.
+In order to minimize inconsistencies, adopters **should** not rephrase, copy or augment spec descriptions in their readme content, the url suffices. 
+
 ### Spec Repository Structure
 
 A spec **shall** contain at least:
