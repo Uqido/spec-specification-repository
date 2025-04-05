@@ -9,7 +9,7 @@ A list of links to existing specs; each url **shall** point to a version tag dir
 - https://github.com/Uqido/spec-specification-repository/tree/0.0.1
 - ...
 
-The first item of the list **shall* be a link to some https://github.com/Uqido/spec-specification-repository/tree/x.y.z version.
+The first item of the list **shall** be a link to some https://github.com/Uqido/spec-specification-repository/tree/x.y.z version.
 Unless stated otherwise, this spec inherits all rules from the linked specs above.
 Specs **should** discourage cherry-picking rules though, specs **should** be adopted on an all-or-nothing basis. 
 
