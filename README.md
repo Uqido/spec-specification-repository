@@ -20,7 +20,7 @@ within that domain or project scope.
 
 ## Normative Content
 
-A specification consists of a GitHub repository along with a standard set of documents and optional support material—such as support toolchain, 
+A specification consists of a GitHub **public** repository along with a standard set of documents and optional support material—such as support toolchain, 
 recipes, etc...—following the conventions specified in this section.
 
 Specification rules used in this document are borrowed from a well-regarded, best practice coding guideline from our good ol' buddy Bjarne Stroustrup
@@ -56,6 +56,7 @@ A spec **shall** contain at least:
 
 It may also contain directories with support material used to ease spec adoption, including scripts, recipes, examples etc... .
 In any case, such support material is *not* intended as a mean for hosting libraries or other reusable code components; these
-should live in dedicated repos: spec repositories **should** be dependency free and lightweight to link and clone.
+should live in dedicated repos: spec repositories **should** be dependency free and lightweight to link and clone.<br>
+Moreover, spec repositories, being public, **shall** not contain secrets or company-sensitive information.
 
 The README.md **shall** follow the structure in the spec_template.md file.
