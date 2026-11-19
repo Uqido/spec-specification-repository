@@ -6,7 +6,7 @@ Brief description
 
 A list of links to existing specs; each url **shall** point to a version tag directly, no extra text needed:
 
-- https://github.com/Uqido/spec-specification-repository/tree/v0.0.1
+- https://github.com/Uqido/spec-specification-repository/tree/v1.0.1
 - ...
 
 The first item of the list **shall** be a link to some https://github.com/Uqido/spec-specification-repository/tree/vx.y.z version.<br>
